@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.5.1",
+    "@langchain/community": "^0.3.43",
+    "@langchain/core": "^0.3.56",
+    "@langchain/groq": "^0.2.2",
+    "@nuxt/content": "^3.5.1",
+    "@nuxt/eslint": "^1.4.1",
+    "@nuxt/fonts": "^0.11.4",
+    "@nuxt/icon": "^1.13.0",
+    "@nuxt/image": "^1.10.0",
+    "@nuxt/scripts": "^0.11.7",
+    "@pinia/nuxt": "^0.11.0",
+    "@tailwindcss/vite": "^4.1.7",
+    "@unhead/vue": "^2.0.9",
+    "@vueuse/core": "^13.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "eslint": "^9.27.0",
+    "langchain": "^0.3.26",
+    "lodash": "^4.17.21",
+    "lucide-vue-next": "^0.511.0",
+    "nuxt": "^3.17.4",
+    "pinia": "^3.0.2",
+    "reka-ui": "^2.2.1",
+    "shadcn-nuxt": "^2.1.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.7",
+    "tw-animate-css": "^1.3.0",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1",
+    "vue-sonner": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.17"
+  }
+}
